@@ -84,7 +84,7 @@ def containment_check_set(thelist: List[int], number: int) -> bool:
     # ... than it is to search through a list
     # Reference to support this assertion:
     # https://docs.quantifiedcode.com/python-anti-patterns/performance/using_key_in_list_to_check_if_key_is_contained_in_a_list.html
-    # TODO: assume that the value is not inside of the tuple
+    # TODO: assume that the value is not inside of the list
     found = False
     # TODO: convert the list to a set
     # TODO: the value is, in fact, inside of the set
