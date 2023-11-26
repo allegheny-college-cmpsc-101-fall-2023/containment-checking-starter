@@ -35,7 +35,7 @@ def human_readable_boolean(answer: bool) -> str:
 
 
 def generate_random_number(maximum: int, exceed: bool = False) -> int:
-    """Generate a random list defined by the size."""
+    """Generate a random int defined by maximum."""
     # TODO: start with a random value that is one greater
     # than the maximum, which is helpful when benchmarking
     # a containment algorithm for a value not in the container
